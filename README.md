@@ -40,3 +40,10 @@ n.  31/12/9999 23:59:59
     push ax
     pop VARIABLES
 ```
+
+## Task 2: Points proximity calculation
+
+Provided a set of two-dimensional points in the Cartesian plane, find the closest and the farthest point from a given point (x, y).
+Each point is represented by a DWORD: where the least significant WORD is the x coordinate, and the most significant one is the y.
+
+The chosen approach simply consists in calculating the Euclidean distance of the points in the set to the target one. If a nearer or farther point is found, its index is saved.
