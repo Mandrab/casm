@@ -6,6 +6,12 @@ There is no aim to optimize the computing speed.
 
 The chosen syntax is the Intel one.
 
+To compile and run the tasks use the following commands:
+```
+[make clean;] make task_TASKCODE.bin; ./task_TASKCODE.bin
+```
+Where ```TASKCODE``` is the integer code of the task.
+
 ## Task 1: Date & time extraction from a string
 
 Given a string containing current date and time in the format _DD/MM/YYYY hh:mm:ss_, break it down into days, months, years, hours, minutes and seconds.
