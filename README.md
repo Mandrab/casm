@@ -1,6 +1,6 @@
 # GCC Extended Assembly in C Language
 
-This project consists in a series of exercises aimed at improve my ability in inline Assembly programming.
+This project consists in a series of exercises aimed at improving my ability in inline Assembly programming.
 The game-goal is to create the _shortest asm code_ possible.
 There is no aim to optimize the computing speed.
 
