@@ -20,7 +20,6 @@ l1: mov eax, ebx;                               /* copy ebx in eax to apply a ma
     cmp eax, 0x0080;                            /* check if bits contains a 0 -> 1 transition; set ZF accordingly */
     jne l2;                                     /* if not an increment, check if it is a decrement */
     inc %[increments];                          /* increment the counter */
-    /*add %[increments], zf;*/                      /* TODO ZF = 0 if not transition, ZF = 1 otherwise */
 l2: cmp eax, 0x0100;                            /* check if bits contains a 1 -> 0 transition */
     jne l3;                                     /* if not a decrement, skip */
     inc %[decrements];                          /* increment the counter */
